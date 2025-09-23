@@ -1,0 +1,49 @@
+body{
+  width: 100%;
+    background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.5) 50%
+), url("images/cloud.jpg");
+
+
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+   
+}
+
+p{
+    font-size: 50px;
+    color: white;
+    font-family: Arial;
+    position:relative;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    top:50%;
+    bottom:50%;
+    text-align: center;
+    transform: translateY(50%);
+}
+
+a{
+    text-decoration: none;
+    margin:20px;
+    background-color: white;
+    padding:20px;
+    font-size: 20px;
+    position:fixed;
+    bottom:20px;
+    left:47%;
+    border-radius: 20px;
+    color:blue;
+    width:100px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: blue;
+    color:white;
+    transition:0.3s ease-in-out;
+    transform: scale(1.1);
+}
